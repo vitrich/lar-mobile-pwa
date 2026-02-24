@@ -1,0 +1,36 @@
+{
+  "name": "Letovo Math",
+  "short_name": "Letovo",
+  "description": "Математический тренажёр для учеников Letovo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Мои уроки",
+      "url": "/lessons",
+      "description": "Открыть список уроков"
+    },
+    {
+      "name": "Результаты",
+      "url": "/teacher/students",
+      "description": "Посмотреть результаты учеников"
+    }
+  ]
+}
